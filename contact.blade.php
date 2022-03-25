@@ -1,51 +1,16 @@
 @extends('layouts.fronted.contact')
-@section('redes')
-<div class="red">
-    <div id="facebook">
-        <a href="https://www.youtube.com/channel/UCuRgEjJgi9iZFCYVSASpXDw" target="none" class="fab fa-facebook-f "></a>
-    </div>
-    <div id="instagram">
-        <a href="https://www.youtube.com/channel/UCuRgEjJgi9iZFCYVSASpXDw" target="none" class="fab fa-instagram"></a>
-    </div>
-    <div id="twiter">
-        <a href="" target="none" class="fab fa-twitter-square"></a>
-    </div>
-    <div id="whatsaap">
-        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none" class="fab fa-whatsapp"></a>
-    </div>
-    <div id="linkeding">
-        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none" class="fab fa-linkedin"></a>
-    </div>
-</div>
-@endsection
-@section('navbar_top')
+@extends('essencials.redes')
 
-@endsection
-@section('navbar')
-    <header>
-    <a href="#" class="logo">
-        <h2 style="color: white" class="imgtamaño">JLDM</h2>
-        <!--<img  class="imgtamaño" src="{{ asset('img/jldm.png')}}" alt="JLDM ! Proyects">-->
-    </a>
-    <div class="menu-toggle" ></div>
-        <nav>
-            <ul>
-                <li><a href="{{ url('/')}}" >INICIO</a></li>
-                <li><a class="active" href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
-                <li><a href="{{ url('/productos')}}">PRODUCTOS</a></li>
-                <li><a href="{{ url('/nosotros')}}">NOSOTROS</a></li>
-            </ul>
-        </nav>
-        <div class="clearfix"></div>
-    </header>
-@endsection
+@extends('essencials.navbar_top')
+@extends('essencials.navbar')
+
 @section('banner')
 <div class="banner">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="hero-text">
-                        <h4>PAGINA <span>WEB</span></h4>
+                        
 						<br>
 						<br>
                         <h1 class="tipeo1">COMUNÍCATE CON NOSOTROS</h1>
@@ -62,9 +27,9 @@
         <div class="col-md-3 col-sm-6 mb-3 text-center">
             <div class="single-content_service">
                 <div class="service">
-                    <i class="fas fa-percent fa-4x"></i>
-                    <h4 class="title_services">Ofertas del Día</h4>
-                    <p class="description_services">Ofertas especiales</p><br>
+                    <i class="fas fa-diagnoses fa-4x"></i>
+                    <h4 class="title_services">Asesoria</h4>
+                    <p class="description_services">En certificaciones y pre certificaciones</p><br>
                     <!--<a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl">Ver mas</a>-->
                 </div>
             </div>
@@ -72,9 +37,9 @@
         <div class="col-md-3 col-sm-6 mb-3 text-center">
             <div class="single-content_service">
                 <div class="service">
-                    <i class="fas fa-shopping-cart fa-4x"></i>
-                    <h4 class="title_services">Entrega Inmediata</h4>
-                    <p class="description_services">Servicio de entrega inmediata</p><br>
+                    <i class="fas fa-drafting-compass fa-4x"></i>
+                    <h4 class="title_services">Planificacion</h4>
+                    <p class="description_services">Validamos tus progresos y realizamos una estrategia</p><br>
                     <!--<a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl2">Ver mas</a>-->  
                 </div>
             </div>
@@ -82,9 +47,9 @@
         <div class="col-md-3 col-sm-6 mb-3 text-center">
             <div class="single-content_service">
                 <div class="service">
-                    <i class="fas fa-user-check fa-4x"></i>
-                    <h4 class="title_services">Clientes Satisfechos</h4>
-                    <p class="description_services">Nuestros clientes felices con nuestro servicio</p>
+                    <i class="fas fa-file-signature fa-4x"></i> 
+                    <h4 class="title_services">Certificaiones</h4>
+                    <p class="description_services">No importa el tamaño de tu empresa</p>
                     <!--<a href="{{ url('/nosotros')}}" class="btn_modal_wel mt-5">Ver mas</a>-->
                 </div>
             </div>
@@ -92,9 +57,9 @@
         <div class="col-md-3 col-sm-6 mb-3 text-center">
             <div class="single-content_service">
                 <div class="service">
-                    <i class="fas fa-thumbs-up fa-4x"></i>
-                    <h4 class="title_services">Multiples Formas de Pago</h4>
-                    <p class="description_services">Diferentes tipos de pago</p>
+                    <i class="fab fa-connectdevelop fa-4x"></i>  
+                    <h4 class="title_services">Inovacion</h4>
+                    <p class="description_services">Tenemos distintas modalidades segun tus necesidades</p>
                     <!--<a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl">Ver mas</a>-->          
                 </div>
             </div>
@@ -107,38 +72,33 @@
     <div class="form">
         <div class="contact-info">
                 <h3 class="contact_tittle">ESTAMOS UBICADOS EN</h3>
-                <p class="contact_text">Un punto estratégico para una mejor atención a 
-                    nuestros clientes para que puedan realizar su compra o 
-                    recoger sus productos.   
+                <p class="contact_text">Merced 838, Oficina 117, Santiago Centro, Chile.   
                 </p>
 
             <div class="contactos_info">
                 <div class="contact_information">
                     <i class="fas fa-2x fa-map-marker-alt"></i>
-                    <p>AV.MUY MUY LEJANO </p>
+                    <p>Metro Plaza de Armas </p>
                 </div>
                 <div class="contact_information">
                 <i class="fas fa-2x fa-phone-volume"></i>
-                    <p>999999999</p>
+                    <p>+56 953023843</p>
                 </div>
                 <div class="contact_information">
                     <i class="far fa-2x fa-envelope"></i>
-                    <p>jldm605@gmail.com</p>
+                    <p>contacto@quas.cl</p>
                 </div>
             </div>
             <div class="social_media">
                 <p>REDES SOCIALES</p>
                 <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none">
+                    <a href="" target="none">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="" target="none">
+                        <a href="" target="none">
                         <i class="fab fa-twitter-square"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none">
+                    <a href="https://cl.linkedin.com/in/quas-chile-7a726b1a0" target="none">
                         <i class="fab fa-linkedin"></i>
                     </a>
                 </div>
@@ -165,53 +125,5 @@
     </div>
 </div>
 @endsection
-@section('footer')
-<footer class="footer">
-    <div class="l-footer">
-        <!--<img  class="footer_img" src="{{asset('img/JLDIAZ.png')}}" alt="JLDM | Proyectos">-->
-        <h2 style="color: white" class="footer_img">JLDM</h2>
-    <p>Hola Soy JLDIAZ diseñador web esta pagina web esta totalmente gratis para que puedan implementar a algun proyecto universitario la unica de
-        condicon de uso es que mejoren algo a esta pagina web para que asi fortalezcan sus conocimientos.
-    </p>
-    </div>
-        <ul class="r-footer">
-            <li>
-            <h2>Social</h2>
-                <ul class="box">
-                    <li class="button_social">
-                        <i class="fab mr-2 fa-facebook"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Facebook</a>
-                    </li>
-                    <li class="button_social">
-                        <i class="fab mr-2 fa-twitter"></i>
-                        <a href="#">Twitter</a>
-                    </li>
-                    <li class="button_social">
-                        <i class="fab mr-2 fa-instagram"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Instagram</a>
-                    </li>
-                    <li class="button_social">
-                        <i class="fab mr-2 fa-linkedin-in"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Linkedin</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="features">
-            <h2>Información</h2>
-            <ul class="box">
-                <li><a href="#">Políticas de Privacidad</a></li>
-                <li><a href="#">Trabaja con nosotros</a></li>
-            </ul>
-            </li>
-            <li class="features">
-                <h2>Procedimiento de Pagos</h2>
-                <ul class="box">
-                    <li><a type="button" class="btn btn-outline-info" href="#">Ver mas</a></li>
-                </ul>
-                </li>
-        </ul>
-        <div class="b-footer">
-            <p>Todos los Derechos reservados by <a href="https://answer1986.github.io" target="_blank">©Arv00316</a></p>
-        </div>
-</footer>
-@endsection
+@extends('essencials.footer')
+

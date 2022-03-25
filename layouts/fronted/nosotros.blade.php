@@ -56,8 +56,8 @@
     <script src="{{asset('js/typed.js') }}"></script>
     <script>
 	var typed = new Typed('.type', {
-    strings: ['<span><i class="fas fa-mobile-alt"></i></span> +51 99995595', 
-                '<span><i class="fas fa-mail-bulk"></i></span> jldm605@gmail.com'],
+    strings: ['<span><i class="fas fa-mobile-alt"></i></span> +56 9 5302 3843', 
+                '<span><i class="fas fa-mail-bulk"></i></span> contacto@quas.cl'],
     typeSpeed:60,backSpeed:60,loop:true});
     </script>
     </body>

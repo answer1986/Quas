@@ -290,7 +290,7 @@
                 <h2 class=" frm_pagos text-center">REALIZAMOS DELIVERY ESPECIAL</h2>  
                 <hr class="style3">   
                 <h5>Primero se envía la cotización al cliente, luego de ello el cliente envía la orden de compra por medio de nuestro correo y a las 24 horas 
-                    se le realiza el envío de los productos dentro de Lima sin costo alguno, a provincia se aplica un adicional.</h5>                   
+                    se le realiza el envío de las credenciales sin costo alguno.</h5>                   
             </div>
         </div>
     </div>
