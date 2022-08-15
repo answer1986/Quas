@@ -245,7 +245,7 @@
                 <div class="principalPagos">
                     <div id="contenedor" class="row_p">
                         <div id="naranja" class="">
-                            <img class="popou_img"src="{{ asset('img/mantenimiento.jpeg')}}" alt="">
+                            <img class="popou_img"src="{{ asset('img/mantenimiento.jpeg')}}" style=" height:auto;" alt=""; >
                         </div>       
                         <div id="verde" class="content_pagos"> 
                             <h2 class=" frm_pagos text-center" style="color:black">Mantenimiento</h2>
@@ -321,7 +321,7 @@
                 <h2 class=" frm_pagos text-center" style="color:black;">Diagnostico</h2>  
                     <div id="contenedor" class="row_p"> 
                         <div class="col-md-6 offset-md-0">
-                            <img class="popou_img"src="{{ asset('img/Servicios/Diagnostico-2.jpeg')}}" alt="">
+                            <img class="popou_img"src="{{ asset('img/Servicios/Diagnostico-2.jpeg')}}" style="height:auto;" alt="">
                         </div>    
                         <div class="col-sm-5  ">   
                             <p> diagnóstico organizacional es una manera efectiva de ver una organización para determinar las brechas entre el desempeño actual y el deseado, y cómo puede lograr sus objetivos. El diagnóstico puede limitarse a un equipo, un proyecto o una empresa en general.
@@ -356,7 +356,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-5 col-md-6">
-                            <img class="popou_img"src="{{ asset('img/Servicios/Implementacion.jpeg')}}" alt="300px" width="300px" >    
+                            <img class="popou_img"src="{{ asset('img/Servicios/Implementacion.jpeg')}}" style="height:auto;" >    
                         </div>
                             <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
                                 En QUAS Consultores ofrecemos una amplia gama de servicios de asesoría para la implementación y certificación de Sistemas de Gestión ISO, independientemente de que su organización está en la fase inicial de implementación o si está a mitad de camino o se está acercando a la auditoría de certificación o su sistema está abandonado, nuestros servicios de consultoría ISO agregarán valor a la eficacia general en su sistema de gestión ISO, permitiendo alcanzar una ventaja competitiva sostenible.
