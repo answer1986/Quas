@@ -26,16 +26,17 @@
 		font-size: 40px;
 		padding: 0 20px;
 
-		&:hover, &:focus {
+		/*&:hover, &:focus {
 			border: 1px solid rgba(38, 50, 56, 0.6);
 		}
 
 		&::-webkit-input-placeholder {
 			color: rgba(#ffffff, 0.1);
 		}
-  }
-	
+  }*/
 }
+	
+
 </style>
 
 @extends('layouts.fronted.categorias')
@@ -67,7 +68,7 @@
              <div class="row">  
                <div class="col">
                   <hr class="style4">
-                        <img class="holi" style="height: 300px;"src="{{ asset('img/Abstract-iso.jpeg')}}" >
+                        <img class="holi" style="height:300px;"src="{{ asset('img/Abstract-iso.jpeg')}}" >
                   <br></br>
                </div>
                 <div class="col">

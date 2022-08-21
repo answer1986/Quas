@@ -31,6 +31,12 @@ Route::get('/terminos', function(){
     return view('terminos');
 });
 
+
+Route::get('/catalogos', function(){
+    return view('catalogos');
+});
+
+
 /*PRUEBA
 Route::resource('/categorias', 'StoreController');*/
 
@@ -58,3 +64,4 @@ Route::resource('/Categorias', 'CategoriasController')->middleware('auth');
 Route::resource('/producto', 'ProductoController')->middleware('auth');
 
 /*ADMIN*/
+
