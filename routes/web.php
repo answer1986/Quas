@@ -34,7 +34,7 @@ Route::get('/terminos', function(){
 
 Route::get('/catalogos', function(){
     return view('catalogos');
-});
+})/*->middleware('auth')*/;
 
 
 /*PRUEBA
