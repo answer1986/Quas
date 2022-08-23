@@ -31,10 +31,34 @@ Route::get('/terminos', function(){
     return view('terminos');
 });
 
+/***** catalogo *****/
 
 Route::get('/catalogos', function(){
     return view('catalogos');
-})/*->middleware('auth')*/;
+})->middleware('auth:');
+
+Route::get('/bpm', function(){
+    return view('/bpm');
+});
+
+Route::get('/hdm', function(){
+    return view('/hdm');
+});
+Route::get('/esm', function(){
+    return view('/esm');
+});
+Route::get('/ecm', function(){
+    return view('/ecm');
+});
+Route::get('/grc', function(){
+    return view('/grc');
+});
+Route::get('/cpm', function(){
+    return view('/cpm');
+});
+Route::get('/eqm', function(){
+    return view('/eqm');
+});
 
 
 /*PRUEBA

@@ -62,13 +62,17 @@
                                 <div class="col">
                                     <div class="dropdown">
                                         <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                         Selecciona
+                                         Selecciona Modulos
                                           </a>
 
                                          <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                           <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            <li><a class="dropdown-item" href="{{ url('/bpm')}}">BPM</a></li>
+                                            <li><a class="dropdown-item" href="{{ url('/hdm')}}">HDM</a></li>
+                                            <li><a class="dropdown-item" href="{{ url('/esm')}}">ESM</a></li>
+                                            <li><a class="dropdown-item" href="{{ url('/ecm')}}">ECM</a></li>
+                                            <li><a class="dropdown-item" href="{{ url('/grc')}}">GRC</a></li>
+                                            <li><a class="dropdown-item" href="{{ url('/cpm')}}">CPM</a></li>
+                                            <li><a class="dropdown-item" href="{{ url('/eqm')}}">EQM</a></li>
                                          </ul>
                                     </div>
                                 </div>
@@ -82,9 +86,9 @@
                                         </a>
 
                                         <ul class="dropdown-menu" style="margin-top:5px ;">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            <li><a href="https://www.youtube.com/watch?v=H3iwL8TDOMs&list=PL_zvZxG3IM8rAFr_MlPkAy4dYpQxzAAKG&index=5" target="_blank" class="dropdown-item" >Que es Quasmanager</a></li>
+                                            <li><a class="dropdown-item" href="#">Proximamente</a></li>
+                                            <li><a class="dropdown-item" href="{{ url('/contact')}}">Contactanos</a></li>
                                         </ul>
                                     </div>
                             </div>
@@ -94,12 +98,11 @@
                                     <br> </br>                              
                                     <div class="dropdown"style="top: 10px;">
                                     <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Selecciona
-                                    </button>
+                                        Selecciona 
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="a">Action</a></li>
-                                        <li><a class="dropdown-item" href="b">Another action</a></li>
-                                        <li><a class="dropdown-item" href="c">Something else here</a></li>
+                                        <li><a class="dropdown-item" href="a">Proximamente.</a></li>
+                                       <!-- <li><a class="dropdown-item" href="b">Another action</a></li>
+                                        <li><a class="dropdown-item" href="c">Something else here</a></li>-->
                                     </ul>
                                     </div>
                             </div>
