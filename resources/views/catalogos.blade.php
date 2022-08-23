@@ -66,13 +66,13 @@
                                           </a>
 
                                          <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" target="_blank" href="{{ url('/bpm')}}">BPM</a></li>
-                                            <li><a class="dropdown-item" target="_blank" href="{{ url('/hdm')}}">HDM</a></li>
-                                            <li><a class="dropdown-item" target="_blank" href="{{ url('/esm')}}">ESM</a></li>
-                                            <li><a class="dropdown-item" target="_blank" href="{{ url('/ecm')}}">ECM</a></li>
-                                            <li><a class="dropdown-item" target="_blank" href="{{ url('/grc')}}">GRC</a></li>
-                                            <li><a class="dropdown-item" target="_blank" href="{{ url('/cpm')}}">CPM</a></li>
-                                            <li><a class="dropdown-item" target="_blank" href="{{ url('/eqm')}}">EQM</a></li>
+                                            <li><a class="dropdown-item" href="{{ url('/bpm')}}">BPM</a></li>
+                                            <li><a class="dropdown-item" href="{{ url('/hdm')}}">HDM</a></li>
+                                            <li><a class="dropdown-item" href="{{ url('/esm')}}">ESM</a></li>
+                                            <li><a class="dropdown-item" href="{{ url('/ecm')}}">ECM</a></li>
+                                            <li><a class="dropdown-item" href="{{ url('/grc')}}">GRC</a></li>
+                                            <li><a class="dropdown-item" href="{{ url('/cpm')}}">CPM</a></li>
+                                            <li><a class="dropdown-item" href="{{ url('/eqm')}}">EQM</a></li>
                                          </ul>
                                     </div>
                                 </div>
