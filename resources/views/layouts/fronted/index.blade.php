@@ -84,6 +84,26 @@
   width: 160px;
   margin: 15px;
 } 
+
+
+
+#hide{
+  display: none;
+}
+
+
+ #botoncito:hover + #hide {
+    margin-top: 5px;
+    color: #D6D2D1;
+    display:block; 
+    transition: 0.5s;
+    text-align: center;
+}
+  
+
+
+
+
   </style>
 
 </head>
@@ -115,6 +135,27 @@
               <li><a href="{{ url('/productos') }}">FOCO EN EL NEGOCIO</a></li>
             </ul>
           </div>
+          <br>
+
+            <!--coloca 3 botones al centro con con margen derecho al 20%  -->
+            <div id="botones-index"class="d-flex justify-content-center" style="margin-bottom:3%; margin-top: 50px;"  >
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <div class="col md-4">
+                        <button id = botoncito type="button" class="btn btn-outline-light"  style=" width: 350px; margin-left: 180px ; margin-right: 250px;border-radius: 20px"><h4>Consultoria empresarial</h4> </button>
+                        <a id="hide" style="text-align:justify;margin-left:10% ;">Toda cuenta es seguida y supervisada técnicamente por experto consultor asignado, asegurando la mejora continua del sistema y el cumplimiento de los requerimientos normativos.</a>
+                    </div>
+                    <div class="col md-4">
+                        <button  id = botoncito type="button" class="btn btn-outline-light" style=" width: 350px; margin: left 50px; margin-right: 250px;border-radius: 20px"><h4>Certificiaciones Iso</h4></button>
+                        <a id="hide" style="text-align:justify ;">Contamos con un stack importante de normas iso que puedes implementar tenemos un abanico amplio de productos y 2 decadas de trayectoria.</a>
+                    </div>
+                    <div class="col md-4">
+                        <button  id = botoncito type="button" class="btn btn-outline-light" style=" width: 350px; margin-right: 200px;border-radius: 20px"><h4>Software a la medida </h4></button>
+                        <a id="hide" style="text-align:justify; margin-right:18% ;">Fabricamos y entregamos soluciones a la medida, tenemos un importante catalogo de alternativas las cuales permitiran potenciar tu operacion.</a>
+                    </div>    
+                </div>
+                
+              </div>
+          </br>
 
         
 
