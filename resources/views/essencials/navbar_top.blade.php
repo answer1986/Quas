@@ -21,7 +21,7 @@
             </div>
             <div class="headcont">
                 <i class="fas fa-1x fa-envelope messenge"></i>
-                <a style= "color:white"href="mailto:contacto@quas.cl">contacto@quas.cl</a>    
+                <a style= "color:white"href="mailto:comercial@quas.cl">comercial@quas.cl</a>    
             
             </div>
         </div>

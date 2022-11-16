@@ -20,7 +20,7 @@
     </head>
     <body>
         @yield('redes')
-        <section id="headerSection_nosotros">
+        <section id="headerSection_productos">
             @yield('navbar_top')
             @yield('navbar')
             @yield('banner')

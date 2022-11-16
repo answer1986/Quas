@@ -12,12 +12,13 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+
 
     <!-- Styles -->
     <link type="text/css" href="{{asset('css/style.css') }}" rel="stylesheet">
     <link type="text/css" href="{{asset('css/slick.css') }}" rel="stylesheet">
-    
+
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 *{margin: 0; padding: 0; box-sizing: border-box; font-family: "Poppins", sans-serif;}
@@ -32,7 +33,7 @@
   background-size: cover;
   transition:3s ;
   padding: 2%;
-  
+
 
 }
 .containers .card{
@@ -83,7 +84,7 @@
   height: 40px;
   width: 160px;
   margin: 15px;
-} 
+}
 
 
 
@@ -95,11 +96,11 @@
  #botoncito:hover + #hide {
     margin-top: 5px;
     color: #D6D2D1;
-    display:block; 
+    display:block;
     transition: 0.5s;
     text-align: center;
 }
-  
+
 
 
 
@@ -107,17 +108,17 @@
   </style>
 
 </head>
-<body> 
+<body>
     @yield('redes')
         <section id="headerSection">
               @yield('navbar_top')
               @yield('navbar')
               @yield('banner')
 
-          <br>    
+          <br>
           <div class="d-flex justify-content-center" style="font-size: 30px;" id="myCanvasContainer">
               <canvas width="700" height="500" style="font-size: 30px;" id="myCanvas">
-                  
+
               </canvas>
           </div>
           <div  id="tags">
@@ -137,8 +138,9 @@
           </div>
           <br>
 
+
             <!--coloca 3 botones al centro con con margen derecho al 20%  -->
-            <div id="botones-index"class="d-flex justify-content-center" style="margin-bottom:3%; margin-top: 50px;"  >
+          <!--  <div id="botones-index"class="d-flex justify-content-center" style="margin-bottom:3%; margin-top: 50px;"  >
                 <div class="btn-group" role="group" aria-label="Basic example">
                     <div class="col md-4">
                         <button id = botoncito type="button" class="btn btn-outline-light"  style=" width: 350px; margin-left: 180px ; margin-right: 250px;border-radius: 20px"><h4>Consultoria empresarial</h4> </button>
@@ -151,23 +153,23 @@
                     <div class="col md-4">
                         <button  id = botoncito type="button" class="btn btn-outline-light" style=" width: 350px; margin-right: 200px;border-radius: 20px"><h4>Software a la medida </h4></button>
                         <a id="hide" style="text-align:justify; margin-right:18% ;">Fabricamos y entregamos soluciones a la medida, tenemos un importante catalogo de alternativas las cuales permitiran potenciar tu operacion.</a>
-                    </div>    
+                    </div>
                 </div>
-                
-              </div>
-          </br>
 
-        
+              </div>
+          </br>-->
+
+
 
         </section>
-    
+
     @yield('cards_service')
     @yield('tres')
     @yield('title')
         <div class="body_cards">
           @yield('cards')
         </div>
- 
+
     @yield('title5')
         @yield('Proveedores')
     @yield('title2')
@@ -202,7 +204,7 @@
       </script>
     <script>
         var typed = new Typed('.type', {
-        strings: ['<span><i class="fas fa-paint-brush"></i></span> RESPONSIVE', 
+        strings: ['<span><i class="fas fa-paint-brush"></i></span> RESPONSIVE',
                     '<span><i class="fas fa-building"></i></span> DINAMICA'
                     ,'<span><i class="fas fa-coffee"></i></span> FOLLOW ME'],
         typeSpeed:60,backSpeed:60,loop:true});
@@ -217,6 +219,6 @@
 			once: true
 		});
 	</script>
-      
+
 </body>
 </html>

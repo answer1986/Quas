@@ -33,26 +33,26 @@
                     
                             <div class="col-md-2 text-center" style="color:black;">
                             
-                                <h8><b> Siguenos en redes sociales </b></h8>
+                                <h8><b> Proximamente siguenos en redes sociales </b></h8>
                                     <br>
                                     
-                                <a href="https://www.linkedin.com/in/quas-quasmanager-167175246/">
+                                <!--<a href="https://www.linkedin.com/in/quas-quasmanager-167175246/">-->
                                 <img src="{{ asset('/img/Footer/Linked.png')}}" width= "30" height="30" style = "margin: 3px;" />
                                 <!--<i class="fab fa-facebook-square icon-3x text-white m-2"></i>-->
                                 </a>
-                                <a href="https://twitter.com">
+                                <!--<a href="https://twitter.com">-->
                                 <img src="{{ asset('/img/Footer/tweeter.jpeg')}}" width= "30" height="30" style = "margin: 3px;"/>
                                 <!--<i class="fab fa-instagram-square icon-3x text-white m-2"></i>-->
                                 </a>   
-                                <a href="https://www.youtube.com/channel/UCAhaIRzp1FMBIcnCuLtwFxw">
+                                <!--<a href="https://www.youtube.com/channel/UCAhaIRzp1FMBIcnCuLtwFxw">-->
                                 <img src="{{ asset('/img/Footer/youtube.png')}}" width= "30" height="30" style = "margin: 3px;"/>
                                 <!--<i class="fab fa-youtube-square icon-3x text-white m-2"></i>-->
                                 </a>
                             </div>
                         
                             <div class="col-md-2,5 text-black texty center"style="color:black; margin-left:3%;">
-                                <h8><b> Desarrollado por:</b></h8><br>
-                                <a href=" https://answer1986.github.io/"><p style="color:black">todos los derechos reservados</p>
+                                <h8><b> Desarrollado por: soporte@quas.cl</b></h8><br>
+                                <a href=" "><p style="color:black">todos los derechos reservados</p>
                             </div>    
                     
                             <div class="col-md-1,5" style="margin-left:3%">

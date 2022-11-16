@@ -1,21 +1,38 @@
+
+
 @section('navbar')
     <header>
-    <a href="{{ url('/')}}" class="logo">
-        <h4 style="color:green" class="imgtamaño"></h4>
-        <img  class="imgtamaño" src="{{ asset('img/Logo-Quas.png')}}"  alt="">
-    </a>
-    <div class="menu-toggle" ></div>
-        <nav>
-            <ul>
-                <li><a href="{{ url('/')}}" >Inicio</a></li>
-                <li><a class="active" href="{{ url('/productos')}}">Servicios</a></li>
-                <li><a href="{{ url('/nosotros')}}">Nosotros</a></li>
-                <li><a href="{{ url('/contact')}}">Contacto</a></li>
-                <li><a href="#bannerformmodal" data-toggle="modal" data-target="#bannerformmodal">Quas?</a></li>
+        <a href="{{ url('/')}}" class="logo">
+            <h4 style="color:green" class="imgtamaño"></h4>
+            <img  class="imgtamaño" src="{{ asset('img/Logo-Quas.png')}}"  alt="">
+        </a>
+          <div class="menu-toggle" ></div>-->
+              <nav class="navbar navbar-expand-lg ">
+                  <div class="container-fluid">
+                      <ul>
+                          <li><a href="{{ url('/')}}" >Inicio</a></li>
+                          <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href= "" role="button" data-bs-toggle="dropdown" aria-expanded="false"><!-- "{{ url('/productos')}}"-->
+                                  Servicios
+                                </a>
+                                <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Consultoria empresarial</a></li>
+                                      <li><a class="dropdown-item" href="#">Certificaciones Iso</a></li>
+                                      <li><hr class="dropdown-divider"></li>
+                                      <li><a class="dropdown-item" href="#">Software a la medida</a></li>
+                                </ul>
+                          </li>
+                          <li><a href="{{ url('/nosotros')}}">Nosotros</a></li>
+                          <li><a href="{{ url('/contact')}}">Contacto</a></li>
+                          <li><a href="#bannerformmodal" data-toggle="modal" data-target="#bannerformmodal">Quas?</a></li>
 
-            </ul>
-        </nav>
-        <div class="clearfix"></div>
+                      </ul>
+                  </div>
+              </nav>
+          
+            <div class="clearfix"></div>
+
+        
     </header>
 
 @endsection
